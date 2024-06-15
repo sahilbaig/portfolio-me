@@ -100,7 +100,7 @@ const Home = () => {
             </Box>
             <Box mb={3}>
               <Typography variant="body1">Message</Typography>
-              <textarea style={{ width: '100%', padding: '10px', fontSize: '16px' }} rows="5"></textarea>
+              <textarea style={{ width: '100%', padding: '10px', fontSize: '16px' }} ></textarea>
             </Box>
             <Button variant="contained" type="submit">Send</Button>
           </form>
