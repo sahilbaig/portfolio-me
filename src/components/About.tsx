@@ -1,3 +1,7 @@
+import SkillIcon from "./SkillIcon";
+import Line from "./Line";
+import JSIcon from "@/icons/JSdraw";
+
 export default function About() {
   return (
     <div
@@ -8,22 +12,17 @@ export default function About() {
       }}
     >
       <h1>About me</h1>
-      <hr
-        style={{
-          border: "0",
-          height: "10px", // Height of the line
-          backgroundColor: "#FDC965", // Color of the line
-          borderRadius: "30px",
-          width: "50px",
-          marginLeft: "0px",
-        }}
-      />
+      <Line />
+
       <p>
         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut, rem quo
         tenetur harum numquam reprehenderit vel nesciunt voluptatum expedita
         minus recusandae eaque delectus aliquid pariatur in, quisquam, amet non
         adipisci.
       </p>
+      <h1>Skills</h1>
+      <JSIcon></JSIcon>
+      <SkillIcon></SkillIcon>
     </div>
   );
 }

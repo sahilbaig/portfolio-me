@@ -18,3 +18,17 @@ body {
   background: var(--background);
   font-family: var(--font-poppins);
 }
+
+.skill-icon {
+  display: inline-block;
+  overflow: hidden;
+}
+
+.skill-icon svg {
+  filter: grayscale(100%); /* Black and white by default */
+  transition: filter 0.3s ease; /* Smooth transition */
+}
+
+.skill-icon:hover svg {
+  filter: grayscale(0%); /* Full color on hover */
+}
