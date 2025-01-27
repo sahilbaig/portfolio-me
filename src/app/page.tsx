@@ -1,7 +1,8 @@
+import About from "@/components/About";
 export default function Home() {
   return (
     <div>
-      <h1 className="text-4xl font-bold">This is a heading</h1>
+      <About></About>
     </div>
   );
 }
